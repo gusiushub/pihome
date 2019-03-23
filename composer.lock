@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "939f0eacf5f08f79714e3757161a153c",
     "content-hash": "69f3e88c6b5015d4b4e8f05e3e2802f3",
     "packages": [
         {
@@ -47,7 +46,7 @@
                 }
             ],
             "description": "mmap for PHP",
-            "time": "2016-08-01 09:05:45"
+            "time": "2016-08-01T09:05:45+00:00"
         },
         {
             "name": "calcinai/phpi",
@@ -104,7 +103,7 @@
                 "spi",
                 "websocket"
             ],
-            "time": "2018-05-06 21:13:06"
+            "time": "2018-05-06T21:13:06+00:00"
         },
         {
             "name": "react/event-loop",
@@ -146,7 +145,7 @@
                 "asynchronous",
                 "event-loop"
             ],
-            "time": "2017-04-27 10:56:23"
+            "time": "2017-04-27T10:56:23+00:00"
         }
     ],
     "packages-dev": [],
