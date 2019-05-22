@@ -4,8 +4,56 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "69f3e88c6b5015d4b4e8f05e3e2802f3",
+    "hash": "87a3cdfe90d396f0535cfd5df5449a07",
+    "content-hash": "29d479d6cb6476a64ce0c2d51696a6a7",
     "packages": [
+        {
+            "name": "ballen/gpio",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/allebb/gpio.git",
+                "reference": "ad8e80c9c4d854630b86038a242906b5995deafb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/allebb/gpio/zipball/ad8e80c9c4d854630b86038a242906b5995deafb",
+                "reference": "ad8e80c9c4d854630b86038a242906b5995deafb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ballen\\GPIO\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Bobby Allen",
+                    "email": "ballen@bobbyallen.me",
+                    "homepage": "http://bobbyallen.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A RaspberryPi GPIO library written in PHP.",
+            "keywords": [
+                "GPIO",
+                "RaspberryPi",
+                "io",
+                "rpi"
+            ],
+            "time": "2019-01-03 19:40:33"
+        },
         {
             "name": "calcinai/php-mmap",
             "version": "v0.1.8",
@@ -46,7 +94,7 @@
                 }
             ],
             "description": "mmap for PHP",
-            "time": "2016-08-01T09:05:45+00:00"
+            "time": "2016-08-01 09:05:45"
         },
         {
             "name": "calcinai/phpi",
@@ -103,7 +151,47 @@
                 "spi",
                 "websocket"
             ],
-            "time": "2018-05-06T21:13:06+00:00"
+            "time": "2018-05-06 21:13:06"
+        },
+        {
+            "name": "piphp/gpio",
+            "version": "v0.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PiPHP/GPIO.git",
+                "reference": "5d2c5b8f6fa7b3327b29ed88fcee0e89a3ca398b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PiPHP/GPIO/zipball/5d2c5b8f6fa7b3327b29ed88fcee0e89a3ca398b",
+                "reference": "5d2c5b8f6fa7b3327b29ed88fcee0e89a3ca398b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PiPHP\\GPIO\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Carter",
+                    "email": "andrewcarter1992@gmail.com"
+                }
+            ],
+            "description": "A library for accessing the GPIO pins on a Raspberry Pi",
+            "keywords": [
+                "GPIO",
+                "pi",
+                "pin",
+                "pins",
+                "raspberry"
+            ],
+            "time": "2016-07-09 11:38:12"
         },
         {
             "name": "react/event-loop",
@@ -145,7 +233,7 @@
                 "asynchronous",
                 "event-loop"
             ],
-            "time": "2017-04-27T10:56:23+00:00"
+            "time": "2017-04-27 10:56:23"
         }
     ],
     "packages-dev": [],

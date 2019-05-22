@@ -1,5 +1,7 @@
 {
     "require": {
-        "calcinai/phpi": "^0.3.3"
+        "calcinai/phpi": "^0.3.3",
+        "piphp/gpio": "^0.3.3",
+        "ballen/gpio": "^1.0"
     }
 }
